@@ -1,0 +1,28 @@
+.summary {
+    display: block;
+    width: 650px;
+    border: #ACB5BD solid 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.accordion_summary::-webkit-details-marker {
+    display: none;
+}
+.summary .marker {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+details[open] .marker {
+    transform: rotate(-180deg);
+}
+.accordion_item {
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.accordion_item:last-child {
+    margin-bottom: 0;
+}
+.accordion_item_hidden {
+    margin-top: -10px;
+    margin-left: 15px;
+}
