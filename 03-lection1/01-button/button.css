@@ -1,3 +1,4 @@
+
 .btn {
     cursor: pointer;
     color: white;
@@ -5,7 +6,6 @@
     margin-right: 15px;
     border-radius: 3px;
     border-color:transparent;
-
 }
 .btn_primary{
     background-color:#374FC7;
