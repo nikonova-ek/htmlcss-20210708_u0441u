@@ -1,3 +1,4 @@
+
 .summary {
     display: block;
     width: 650px;
@@ -26,3 +27,4 @@ details[open] .marker {
     margin-top: -10px;
     margin-left: 15px;
 }
+
